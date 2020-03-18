@@ -1,0 +1,288 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* Global CSS */
+body{
+	background: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+a{
+	color: #161616;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.title{
+	border-bottom: 2px solid #F49521;
+}
+.mb-50{
+	margin: 25px 0;
+}
+.btn-default{
+	font-size: 14px;
+	background: #0FADEA;
+	border-radius: 0;
+	color: #fff;
+}
+.btn-default:hover{
+	background: #F6951F;
+	color: #fff;
+}
+.btn-search{
+	font-size: 14px;
+	background: #F6951F;
+	border-radius: 0;
+	color: #fff;
+	border: 1px solid #F6951F;
+}
+.btn-search:hover{
+	background: #0FADEA;
+	border: 1px solid #0FADEA;
+	color: #fff;
+}
+
+/* Top Bar Design */
+.top-bar{
+	background: #eee;
+	padding: 10px 0;
+}
+.contact-info ul li{
+	display: inline;
+	list-style: none;
+	margin-right: 20px;
+	font-size: 13px;
+	font-weight: 300;
+	color: #161616;
+}
+.contact-info ul li a{
+	color: #161616;
+	transition: 0.4s ease-in-out;
+}
+.contact-info ul li a:hover{
+	color: #06aff1;
+	text-decoration: none;
+}
+
+/* Top Bar Right Social Media */
+.social-media ul{
+	text-align: right;
+}
+.social-media ul li{
+	list-style: none;
+	display: inline;
+	margin: 0 1px;
+}
+.social-media ul li .fa{
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	transition: 0.4s ease-in-out;
+}
+.social-media ul li .fa:hover{
+	border-radius: 4px;
+}
+.social-media ul li .fa-facebook{
+	background: #385696;
+}
+.social-media ul li .fa-twitter{
+	background: #5DA9DD;
+}
+.social-media ul li .fa-linkedin{
+	background: #2866AC;
+}
+.social-media ul li .fa-instagram{
+	background: #DE2B7D;
+}
+.social-media ul li .fa-youtube{
+	background: #FF0000;
+}
+
+/* Logo Section */
+.logo-section{
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+.option-menu{
+	text-align: right;
+	margin-top: 10px;
+}
+.option-menu li{
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	display: inline;
+	margin-left: 15px;
+	font-size: 14px;
+	font-weight: 300;
+}
+.option-menu li a{
+	transition: 0.4s ease-in-out;
+}
+.option-menu li a:hover{
+	color: #06aff1;
+}
+
+/* Nav Menu Design Start */
+.nav-menu{
+	border-bottom: 1px solid #eee;
+}
+
+/* Home Slider Item */
+.home-slider{
+	padding-top: 25px;
+}
+.item{
+	background: #f9f9f9;
+}
+.slider-content{
+    padding: 140px 20px;
+}
+
+/* Body Content */
+.all-category ul li,
+.all-brand ul li{
+	list-style: none;
+	line-height: 35px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+.body-content{
+	padding: 50px 0;
+}
+.body-content h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.product-image{
+	position: relative;
+	text-align: center;
+}
+.box{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.box h3{
+	font-size: 16px;
+	text-align: center;
+	margin: 15px 0 0; 
+}
+.box h4{
+	font-size: 14px;
+	text-align: center;
+	margin: 10px 0 10px;
+	font-weight: 600; 
+}
+.btn-product{
+	font-size: 14px;
+	background: #0FADEA;
+	border-radius: 0;
+	color: #fff;
+}
+.btn-product:hover{
+	background: #F6951F;
+	color: #fff;
+}
+.box-hover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0);
+}
+.box-hover .fa {
+    color: #fff;
+    font-size: 36px;
+    position: absolute;
+    left: 45%;
+    top: 42%;
+    opacity: 0;
+}
+.product-image:hover .box-hover{
+	background: rgba(0,0,0,.7);
+}
+.product-image:hover .box-hover .fa{
+	opacity: 1;
+}
+
+/* My Account Page */
+.account-menu li{
+	list-style: none;
+	padding: 10px 5px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #161616;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+}
+.active{
+	background: #0FADEA !important;
+	color: #fff !important;
+}
+.account-menu li .fa{
+	transition: 0.4s ease-in-out;
+}
+.account-menu li:hover .fa{
+	margin-right: 15px;
+}
+
+/* Footer Section Design */
+footer{
+	padding: 50px 0;
+	background: #f7f7f7;
+}
+.footer-widget h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.footer-widget img{
+	width: 70%;
+	margin-bottom: 10px;
+}
+.footer-widget ul li{
+	list-style: none;
+	line-height: 35px;
+	color: #161616;
+}
+.footer-widget ul li a .fa{
+	transition: 0.4s ease-in-out;
+}
+.footer-widget ul li a{
+	color: #161616;
+	transition: 0.4s ease-in-out;
+}
+.footer-widget ul li a:hover{
+	color: #f9941e;
+}
+.footer-widget ul li a:hover .fa{
+	margin-right: 10px;
+}
+.copyright-content{
+	background: #333;
+	padding: 20px 0;
+}
+.copyright-content p{
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+    margin: 0;
+}
+.copyright-content a{
+	transition: 0.4s ease-in-out;
+	color: #fff;
+}
+.copyright-content a:hover{
+	color: #f9941e;
+}
